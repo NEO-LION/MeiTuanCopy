@@ -15,6 +15,7 @@
 		5CC32D471F64E8A9005887DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC32D451F64E8A9005887DB /* LaunchScreen.storyboard */; };
 		5CC32D521F64E8A9005887DB /* meituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D511F64E8A9005887DB /* meituanTests.m */; };
 		5CC32D5D1F64E8A9005887DB /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D5C1F64E8A9005887DB /* meituanUITests.m */; };
+		5CC32D6C1F64EC36005887DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D6B1F64EC36005887DB /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5CC32D581F64E8A9005887DB /* meituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC32D5C1F64E8A9005887DB /* meituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanUITests.m; sourceTree = "<group>"; };
 		5CC32D5E1F64E8A9005887DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC32D6A1F64EC36005887DB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5CC32D6B1F64EC36005887DB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5CC32D3B1F64E8A9005887DB /* AppDelegate.m */,
 				5CC32D3D1F64E8A9005887DB /* ViewController.h */,
 				5CC32D3E1F64E8A9005887DB /* ViewController.m */,
+				5CC32D6A1F64EC36005887DB /* MainViewController.h */,
+				5CC32D6B1F64EC36005887DB /* MainViewController.m */,
 				5CC32D401F64E8A9005887DB /* Main.storyboard */,
 				5CC32D431F64E8A9005887DB /* Assets.xcassets */,
 				5CC32D451F64E8A9005887DB /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				5CC32D3F1F64E8A9005887DB /* ViewController.m in Sources */,
 				5CC32D3C1F64E8A9005887DB /* AppDelegate.m in Sources */,
 				5CC32D391F64E8A9005887DB /* main.m in Sources */,
+				5CC32D6C1F64EC36005887DB /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +515,7 @@
 				5CC32D631F64E8A9005887DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC32D641F64E8A9005887DB /* Build configuration list for PBXNativeTarget "meituanTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				5CC32D661F64E8A9005887DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC32D671F64E8A9005887DB /* Build configuration list for PBXNativeTarget "meituanUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				5CC32D691F64E8A9005887DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
