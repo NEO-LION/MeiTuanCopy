@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4145C69838DAC8518335B1C5 /* libPods-meituan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D64430A3CBA95FE56EEE7A /* libPods-meituan.a */; };
 		5CC32D391F64E8A9005887DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D381F64E8A9005887DB /* main.m */; };
 		5CC32D3C1F64E8A9005887DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D3B1F64E8A9005887DB /* AppDelegate.m */; };
 		5CC32D3F1F64E8A9005887DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D3E1F64E8A9005887DB /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D6D3938DF57783A4704F129 /* Pods-meituan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meituan/Pods-meituan.debug.xcconfig"; sourceTree = "<group>"; };
+		49D64430A3CBA95FE56EEE7A /* libPods-meituan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meituan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC32D341F64E8A9005887DB /* meituan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meituan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC32D381F64E8A9005887DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CC32D3A1F64E8A9005887DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		5CC32D5E1F64E8A9005887DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC32D6A1F64EC36005887DB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5CC32D6B1F64EC36005887DB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84544865F9FEBACD661B3BC3 /* Pods-meituan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.release.xcconfig"; path = "Pods/Target Support Files/Pods-meituan/Pods-meituan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4145C69838DAC8518335B1C5 /* libPods-meituan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C6D1C21056C08848DA65523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6D3938DF57783A4704F129 /* Pods-meituan.debug.xcconfig */,
+				84544865F9FEBACD661B3BC3 /* Pods-meituan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5CC32D2B1F64E8A8005887DB = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +102,8 @@
 				5CC32D501F64E8A9005887DB /* meituanTests */,
 				5CC32D5B1F64E8A9005887DB /* meituanUITests */,
 				5CC32D351F64E8A9005887DB /* Products */,
+				4C6D1C21056C08848DA65523 /* Pods */,
+				DBC5773CC9FA4D08CB8869B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +161,14 @@
 			path = meituanUITests;
 			sourceTree = "<group>";
 		};
+		DBC5773CC9FA4D08CB8869B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D64430A3CBA95FE56EEE7A /* libPods-meituan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CC32D611F64E8A9005887DB /* Build configuration list for PBXNativeTarget "meituan" */;
 			buildPhases = (
+				03966265F0F61CFD97421763 /* [CP] Check Pods Manifest.lock */,
 				5CC32D301F64E8A9005887DB /* Sources */,
 				5CC32D311F64E8A9005887DB /* Frameworks */,
 				5CC32D321F64E8A9005887DB /* Resources */,
+				D6A6474ECF4419DBD2A40D3E /* [CP] Embed Pods Frameworks */,
+				2B4B23F384C3F5F90D61D45F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +299,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03966265F0F61CFD97421763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meituan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B4B23F384C3F5F90D61D45F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meituan/Pods-meituan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A6474ECF4419DBD2A40D3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meituan/Pods-meituan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CC32D301F64E8A9005887DB /* Sources */ = {
@@ -430,6 +508,7 @@
 		};
 		5CC32D621F64E8A9005887DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6D3938DF57783A4704F129 /* Pods-meituan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = meituan/Info.plist;
@@ -441,6 +520,7 @@
 		};
 		5CC32D631F64E8A9005887DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84544865F9FEBACD661B3BC3 /* Pods-meituan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = meituan/Info.plist;
