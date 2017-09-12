@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F39ABF1F67C972000D5F4F /* Preson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F39ABE1F67C972000D5F4F /* Preson.m */; };
 		4145C69838DAC8518335B1C5 /* libPods-meituan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D64430A3CBA95FE56EEE7A /* libPods-meituan.a */; };
 		5CC32D391F64E8A9005887DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D381F64E8A9005887DB /* main.m */; };
 		5CC32D3C1F64E8A9005887DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC32D3B1F64E8A9005887DB /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0D6D3938DF57783A4704F129 /* Pods-meituan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meituan/Pods-meituan.debug.xcconfig"; sourceTree = "<group>"; };
+		18F39ABD1F67C972000D5F4F /* Preson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preson.h; sourceTree = "<group>"; };
+		18F39ABE1F67C972000D5F4F /* Preson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preson.m; sourceTree = "<group>"; };
 		49D64430A3CBA95FE56EEE7A /* libPods-meituan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meituan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC32D341F64E8A9005887DB /* meituan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meituan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC32D381F64E8A9005887DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				5CC32D3E1F64E8A9005887DB /* ViewController.m */,
 				5CC32D6A1F64EC36005887DB /* MainViewController.h */,
 				5CC32D6B1F64EC36005887DB /* MainViewController.m */,
+				18F39ABD1F67C972000D5F4F /* Preson.h */,
+				18F39ABE1F67C972000D5F4F /* Preson.m */,
 				5CC32D401F64E8A9005887DB /* Main.storyboard */,
 				5CC32D431F64E8A9005887DB /* Assets.xcassets */,
 				5CC32D451F64E8A9005887DB /* LaunchScreen.storyboard */,
@@ -358,6 +363,7 @@
 			files = (
 				5CC32D3F1F64E8A9005887DB /* ViewController.m in Sources */,
 				5CC32D3C1F64E8A9005887DB /* AppDelegate.m in Sources */,
+				18F39ABF1F67C972000D5F4F /* Preson.m in Sources */,
 				5CC32D391F64E8A9005887DB /* main.m in Sources */,
 				5CC32D6C1F64EC36005887DB /* MainViewController.m in Sources */,
 			);
